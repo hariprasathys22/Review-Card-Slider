@@ -1,12 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Review Card</title>
-</head>
-<body>
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <div class="title">
+          <h2>Our Reviews</h2>
+          <div class="underline"></div>
+        </div>
+          <div class="review-sec">
+            <div class="img-container">
+              <img src="./images/IMG_1204.JPG" id="person-img" />
+            </div>
+            <div class="text-content">
+              <h4 id="author">Hariprasath Y S</h4>
+              <p id="job">Full Stack Developer</p>
+              <p id="info">
+                Full stack developer in Confluence Infotech Solutions,
+                Enterepreneus, Seeking a Challenging position in a reputed
+                organization where I can learn new skills.
+              </p>
+            </div>
+            <!-- prev next buttons -->
+            <div class="button-container">
+              <button class="prev-btn">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button class="next-btn">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+            <!-- random button -->
+            <div class="sci">
+            <button class="random-btn"><a href="#" id="fb">
+                <i class="fab fa-facebook"></i></a>
+            </button>
+            <button class="random-btn"><a href="#" id="git">
+                <i class="fab fa-github"></i></a>
+            </button>
+            <button class="random-btn"><a href="#" id="tweet">
+                <i class="fab fa-twitter"></i></a>
+            </button>
+            <button class="random-btn"><a href="#" id="linkedin">
+                <i class="fab fa-linkedin"></i></a>
+            </button>
+            </div>
+          </div>
     
-</body>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ba16b6e2b8.js"
+      crossorigin="anonymous"
+    ></script>
+  
+  </body>
 </html>
